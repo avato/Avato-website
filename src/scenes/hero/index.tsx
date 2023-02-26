@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { centerVertical, fancyFont } from '/src/shared/tailwind';
+import { centerVertical, fancyFont } from '/src/shared/tailwind.tsx';
 
 type Props = {}
 
