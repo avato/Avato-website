@@ -12,3 +12,7 @@ body,
   font-family: 'Plus Jakarta Sans', sans-serif;
   @apply text-gray-500;
 }
+
+.fancyFont{
+  text-shadow : 2px 2px #000, -2px 2px #000, 2px -2px #000, -2px -2px #000, 5px 5px 0px rgb(0 0 0 / 20%);
+}
