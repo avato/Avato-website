@@ -6,8 +6,10 @@ type Props = {}
 const Hero = (props: Props) => {
   const cVertical = centerVertical();
   const circleStyle = {
-    width: '600px',
-    height: '600px'
+    width: '100%',
+    maxWidth: '100%',
+    paddingTop: '100%',
+    maxHeight: '100vh'
   };
   const fFont = fancyFont();
   
